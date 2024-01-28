@@ -38,6 +38,56 @@ body {
 
 .grid-item {
     margin-bottom: 15px;
-    padding: 5%;
+    padding: 10px;
     border-radius: 10px;
+}
+
+@media (min-width: 576px){
+    #main-container {
+        display: flex;
+        flex-direction: row;
+        max-width: 750px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    #left-container {
+        flex-basis: 68%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #top-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #testimonial-1 {
+        flex-basis: 68%;
+    }
+
+    #testimonial-2 {
+        flex-basis: 28%;
+    }
+
+    #bottom-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #testimonial-3 {
+        flex-basis: 28%;
+    }
+
+    #testimonial-4 {
+        flex-basis: 68%;
+    }
+
+    #testimonial-5 {
+        flex-basis: 28%;
+    }
+
+    
 }
